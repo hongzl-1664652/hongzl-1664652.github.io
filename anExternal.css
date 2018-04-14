@@ -1,0 +1,13 @@
+#round{
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;    
+}
+
+#Right {
+    float: right;
+    width:300px;
+    background-color: #8E41D5;
+}
