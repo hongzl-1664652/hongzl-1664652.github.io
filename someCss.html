@@ -3,23 +3,37 @@
     <head>
         <title>Henry's Website</title>
         <style>
-            p.a {font: 25px arial, sans-serif;}
-            p.b {font: italic bold 30px Georgia, serif;}  
+            p.a {font: 25px arial, sans-serif;text-align: center;border-style: dotted}
+            p.b {font: italic bold 30px Georgia, serif;text-align: center;border-style: dotted}  
             body {
-    background-color: lightblue;
-}
+                background-image: url("wood.png");
+                }
+            .container{
+                position:relative;
+                text-align:center;
+                color: blue;
+                font-size: 30px;
+            }
+            .centered {
+                 position: absolute;
+                 top: 50%;
+                 left: 50%;
+                 transform: translate(-50%, -50%);
+            }
         </style>
     </head>
 <body>
     <p class="a">Welcome!</p>
     <p class="b">This is a website containing some Css features</p>
+    <img src="cherry.jpg" title="Cherry Blossom" style="width:50px;height:50px;margin-left:20px; margin-right: 20px; margin-bottom: 20; margin-top:20px">
+    <img src="uw.jpg" title="uw" style="width:50px;height:50px;margin-left:20px; margin-right: 20px; margin-bottom: 20; margin-top:20px">
 
-    <a href="hhttp://kuow.org/post/secrets-university-washington-campus-over-119-years">
-        <img src="http://mediad.publicbroadcasting.net/p/kuow/files/styles/x_large/public/201412/uwcherrytree-Flickr_Michael_Matti.jpg" title="Cherry Blossom" style="width:50px;height:50px;margin:5px">
-        </a>
-    <a href="https://www.trover.com/d/ZZww-university-of-washington-seattle-washington">
-        <img src="http://media7.trover.com/T/5373a21026c48d1fda000294/fixedw_large_4x.jpg" title="UW fountain" style="width:50px;height:50px;margin:5px">
-        </a>
+    
+    <div class="container">
+        <img src="cherry.jpg" alt="cherry" style="width:500;">
+        <div class="centered">UW Cherry Blossom</div>
+    </div>
+
 
 
 
